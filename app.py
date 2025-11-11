@@ -88,7 +88,7 @@ fig.update_layout(
         yanchor="top",
         buttons=[dict(label="Play",
                       method="animate",
-                      args=[None, {"frame": {"duration": 500, "redraw": True},
+                      args=[None, {"frame": {"duration": 100, "redraw": True},
                                    "fromcurrent": True, "transition": {"duration": 0}}]),
                  dict(label="Pause",
                       method="animate",
